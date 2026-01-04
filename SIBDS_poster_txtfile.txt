@@ -1,0 +1,141 @@
+﻿Continuation of sodium glucose co-transporter-2 inhibitor therapy in the hospital: exploring real-world data to understand harms and benefits
+Iulia Iordanescu1, Evelyn Hung1, Jiefei Wang, PhD 1, L. Maria Belalcazar, MD2
+Schools of Population and Public Health1 and Medicine2, Departments of Biostatistics and Data Science1 and Internal Medicine2, University of Texas Medical Branch, Galveston, TX
+
+
+
+
+INTRODUCTION
+• The anti-hyperglycemic sodium glucose co-transporter-2
+inhibitors (SGLT-2i), a class of medications initially made
+to treat type 2 diabetes mellitus (T2DM), are now
+approved for heart failure (HF) and chronic kidney
+disease (CKD) regardless of T2DM status
+
+
+• SGLT-2i are usually not administered in the hospital
+setting due to the risk of diabetic ketoacidosis (DKA)
+
+
+SPECIFIC AIM
+• Determine whether continued in hospital use of SGLT-2i
+is associated with an increased risk of DKA, extended
+hospital length of stay (LOS), and increased 30-day
+inpatient readmission rates
+
+
+HYPOTHESIS
+• We hypothesize that continuation of SGLT-2i in the
+hospital is not associated with increased rates of DKA,
+increased 30-day inpatient readmission rates, and
+increased LOS as compared to discontinuation of SGLT-2i
+in hospital
+
+
+
+
+METHODS
+• We accessed TriNetX, a large national database with
+information on diagnoses and drug exposures for
+hospital visits, from which we made our cohort
+
+
+• We indexed the 148,807,502 hospital visits for patients
+with at least two SGLT-2i prescriptions in 2022 that
+had an inpatient visit 30 days after the start of at least
+one of those prescriptions, and kept all visits for each
+such patient. Of these visits, we then kept only those
+that were inpatient, with LOS>=2 days, aged >= 18
+years old at time of visit, and with at least one SGLT-2i
+prescription for 30 consecutive days before the visit
+
+
+• The outcomes of interest for each visit are development
+of DKA, 30-day inpatient readmission, and LOS
+
+
+• To account for visit and location clustering, mixed
+effects models were used
+
+
+• For 30-day inpatient readmission: mixed effects logistic
+regression
+
+
+• For LOS: mixed effects linear model with a log
+transformation on the LOS
+
+
+
+
+
+
+  
+
+
+
+DISCUSSION
+• SGLT-2i were continued only in 266 visits (12%) during
+hospitalization
+
+
+• There were only 12 visits (0.5%) where DKA was documented
+
+
+• All cases of DKA occurred in patients who were not on SGLT-2i
+during their hospital stay
+
+
+
+
+CONCLUSIONS
+• The number of cases with continued SGLT-2i use in the hospital in
+this cohort is small and reflects current practice.
+
+
+• We are unable to determine whether SGLT-2i use in the hospital is
+associated with increased DKA rates as compared to discontinued as a
+result of small cohort size and small number of DKA developments.
+
+
+• We did not find a significant association between readmission rate and
+in hospital use of SGLT-2i. The confidence interval (0.845, 1.775) is
+wide likely due to small cohort size
+
+
+• We did not find a significant association between LOS and in hospital
+use of SGLT-2i. The confidence interval (0.939,1.165) is wide likely
+due to small cohort size
+
+
+
+
+NEXT STEPS
+• Expand TriNetX cohort beyond one calendar year to increase number
+of eligible visits.
+
+
+• Consider less restrictive eligibility criteria, such as in number of
+prescriptions filled prior to admission.
+
+
+• Euglycemic DKA and medication-induced ketoacidosis may not be
+identified with ICD codes for DKA. Using diagnostic laboratory results
+available in the database may uncover missed cases.
+
+
+• Further understanding of the cases of DKA observed in this cohort
+may identify modifiable factors that will decrease the risk of DKA
+among SGLT-2i users
+
+
+REFERENCES
+Fralick, Michael, Sebastian Schneeweiss, and Elisabetta Patorno. "Risk of Diabetic Ketoacidosis after Initiation of an SGLT2 Inhibitor."
+The New England Journal of Medicine, vol. 376, no. 23, 2017, pp. 2300–2302. Massachusetts Medical
+Society, https://www.nejm.org/doi/full/10.1056/NEJMc1701990.
+Frank M. Gao, Aleena S. Ali, Rinaldo Bellomo, Michele Gaca, Ashani Lecamwasam, Leonid Churilov, Elif I. Ekinci; A Systematic Review
+and Meta-analysis on the Safety and Efficacy of Sodium–Glucose Cotransporter 2 Inhibitor Use in Hospitalized Patients. Diabetes Care 27
+November 2024; 47 (12): 2275–2290. https://doi.org/10.2337/dc24-0946
+Lakshmi G. Singh, Spyridon Ntelis, Tariq Siddiqui, Stephen L. Seliger, John D. Sorkin, Elias K. Spanakis; Association of Continued Use of
+SGLT2 Inhibitors From the Ambulatory to Inpatient Setting With Hospital Outcomes in Patients With Diabetes: A Nationwide Cohort
+Study. Diabetes Care 20 May 2024; 47 (6): 933–940. https://doi.org/10.2337/dc23-1129
